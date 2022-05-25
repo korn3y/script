@@ -5,7 +5,7 @@ After=multi-user.target
 [Service]
 Type=simple
 WorkingDirectory=/root/selfAdv/
-ExecStart=/root/selfAdv3/./PostDistributorBeta
+ExecStart=/root/selfAdv/./PostDistributorBeta
 
 [Install]
 WantedBy=multi-user.target
