@@ -1,0 +1,11 @@
+[Unit]
+Description=PostDistributorBeta
+After=multi-user.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/selfAdv/
+ExecStart=/root/selfAdv3/./PostDistributorBeta
+
+[Install]
+WantedBy=multi-user.target
